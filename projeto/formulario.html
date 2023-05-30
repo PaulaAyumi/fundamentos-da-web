@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Tecnologia de informação</h1>
+        </header>
+        <nav>
+            <p>TI</p>
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobrenos.html">SOBRE NÓS</a></li>
+                <li><a href="formulario.html">CONTATO</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>CONTATO</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">FALE CONOSCO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>
+                        <form action="#" method="post" autocomplete="off">
+            
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" required placeholder="Primeiro nome">
+                        </form>
+            
+                    </td>
+                    <td>
+            
+                    <label for="isobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome">
+            
+                    </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <form action="#" method="post">
+                                <label for="itelefone">Telefone</label>
+                                <input type="tel" name="telefone" id="itelefone" required placeholder="Insira seu telefone" pattern="^\(\d{2}\)\d{4,5}-\d{4}">
+                            </form>
+                        </td>
+                    </tr>
+            
+                    <tr>
+                        <td colspan="2">
+                            <form action="#" method="post" autocomplete="off">
+                                <p>
+                                    <label for="iemail">Email</label>
+                                    <input type="email" name="email" id="iemail" required placeholder="insira seu email">
+                                </p>
+                            </form>
+                        </td>
+                    <tr>
+                        <td colspan="2">
+                            <form action="#" method="post">
+                                <label for="isenha">Senha</label>
+                                <input type="password" name="senha" id="isenha" required placeholder="insira a senha" maxlength="8">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <form action="#" method="post">
+                                <label for="idata">Data de nascimento</label>
+                                <input type="date" name="data" id="idata">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p>Sexo</p>
+            
+                                <form action="#" method="post">
+                                    <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+                                    <input type="radio" name="sexo" id="imasc"><label for="imasc">Masculino</label>
+                                </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="mensagem">
+                                <form action="#" method="post">
+                                <p><label for="imensagem">Mensagem</label></p>
+                                <textarea name="mensagem" id="imensagem" rows="10"></textarea>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+            
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            <form action="#" method="post">
+                                <input type="submit" value="Enviar" class="botao">
+                                <input type="reset" value="Limpar" class="botao">
+                            </form>
+                        </td>
+                    </tr>
+                </tfoot>
+            
+            </table>
+        </article>
+        <footer>
+            <div class="info">
+                <script>
+                    var nome = document.write('Paula Ayumi Sakassegawa <br>')
+                    var ano = document.write('Ano - 2023 <br>')
+                    var twitter = document.write('twitter: @ayumi <br>')
+                    var facebook = document.write('facebook: @ayumi <br>')
+                    var instagram = document.write('instagram: @ayumi <br>')
+                    var linkedin = document.write('LinkedIn: @ayumi <br>')
+                    var sexo = document.write('Sexo: Feminino <br>')
+                    var polo = document.write('Localização-polo: Guarulhos <br>')
+                </script>
+            </div>
+            <div class="rodape">
+                <h4>ONDE ESTAMOS</h4>
+                <p>R. Dom Pedro II, 178 </p>
+                <p>Centro, Guarulhos - SP, 07011-003</p>
+            </div>
+            <div class="rodape2">
+                <h4><a href="formulario.html" target="_blank">FALE CONOSCO</a></h4>
+                <p>ti@contato.com</p>
+            </div>
+        </footer>
+        <div class="end">
+            <p>TI- Copyright © 2023 .Todos os direitos reservados
+            </p>
+        </div>
+    
+    </body>
+</html>
